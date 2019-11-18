@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Lista de alumnos matriculados{% endblock %}
+{% block content %}
+<h1>{{ alumno.curso }}</h1>
+{% for alumno in alumnos %}
+<p><b>
+{{ alumno  }}
+</b><br>
+</p>
+{% endfor %}
+{% endblock %}
+

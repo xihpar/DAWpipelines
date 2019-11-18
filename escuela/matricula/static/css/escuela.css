@@ -1,0 +1,39 @@
+
+body{
+    background-color:silver;
+	font-family: 'Big Shoulders Text', cursive;
+	padding:0;
+	margin:0;
+	}
+main{
+	margin: 0 auto;
+	width: 80%;
+}
+	
+#formulario{
+	margin: 0 auto;
+	margin-top:3%;
+	padding:2%;
+	background-color:black;
+	color:#00FB1C;
+	width: 80%;
+	text-align:center;
+	}
+img{
+	width:200px;
+}
+#inicio_btn{
+	text-decoration: none;
+	color:black;
+	background-color:grey;
+	padding:1.5%;
+	margin:2%;
+	text-align:center;
+}
+header{
+	margin:0 auto;
+	padding:0;
+	background-color:black;
+	padding:2%;
+	width: 100%;
+}

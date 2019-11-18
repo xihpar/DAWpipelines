@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Lista de alumnos{% endblock %}
+{% block content %}
+{% for alumno in alumnos %}
+<p><b>
+    <img src="/{{alumno.imagen}}"><a href="/{{alumno.imagen}}">{{alumno}}</a>
+</b><br>
+</p>
+{% endfor %}
+{% endblock %}

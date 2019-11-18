@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Lista de alumnos y cursos{% endblock %}
+{% block content %}
+{% for alumno in alumnos %}
+<p>
+{{ alumno }}{{ cursos }}
+</p>
+{% endfor %}
+{% endblock %}
